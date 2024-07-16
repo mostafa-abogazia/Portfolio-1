@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="style.css">
+
+        <title>Responsive portfolio website</title>
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile container">
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+            <div class="profile--container grid">
+                <div class="profile--date">
+                    <div class="profile--border">
+                        <div class="profile--perfil">
+                            <img src="Mostafa1.jpg" alt="">
+                        </div>
+                    </div>
+                    <h2 class="profile--name">Mostafa Abogazia</h2>
+                    <h3 class="profile--professional">Web development</h3>
+                    <ul class="profile--social">
+                        <a href="https://linkedin.com/in/mostafa-abogazia" target="_blank" class="profile--social-link">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+
+                        <a href="https://github.com/mostafa-abogazia" target="_blank" class="profile--social-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </ul>
+                </div>
+                <div class="profile--info grid">
+                    <div class="profile--info-group">
+                        <h3 class="profile--info-number">2</h3>
+                            <p class="profile--info-describtion">Years of <br>work</p>
+                    </div>
+                    <div class="profile--info-group">
+                        <h3 class="profile--info-number">+20</h3>
+                            <p class="profile--info-describtion">Completed<br>Projects</p>
+                    </div>
+                </div>
+                <div class="profile--buttons">
+                    <a download="" href="Mostafa Abogazia.pdf" target="_blank" class="button">
+                        Download CV <i class='bx bxs-download'></i>
+                    </a>
+                    <div class="profile--buttons-small">
+                        <a href="https://api.whatsapp.com/send/?phone=201121863867&text&type=phone_number&app_absent=0" target="_blank" class="button button--small button--gray">
+                            <i class='bx bxl-whatsapp'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                    <ul class="filters--content">
+                        <button class="filters--button filters-tab-active" data-target="#projects">
+                            Projects
+                        </button>
+                        <button class="filters--button" data-target="#skills">
+                            Skills
+                        </button>
+                    </ul>
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects--content grid filters--active" data-content id="projects">
+                        <article class="projects--card">
+                            <img src="Cture.PNG" alt="">
+                            <div class="projects--modal">
+                                <div>
+                                    <span class="projects--subtitle">Web</span>
+                                    <h3 class="projects--tittle">Apple 13 PRO MAX </h3>
+                                    <a href="https://mostafa-abogazia.github.io/Project-3/" target="_blank" class="projects--button button button--small">
+                                        <i class='bx bx-link-alt' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects--card">
+                            <img src="Capture.PNG" alt="">
+                            <div class="projects--modal">
+                                <div>
+                                    <span class="projects--subtitle">Web</span>
+                                    <h3 class="projects--tittle">Calc</h3>
+                                    <a href="https://mostafa-abogazia.github.io/Project-7/" target="_blank" class="projects--button button button--small">
+                                        <i class='bx bx-link-alt' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects--card">
+                            <img src="1_DI5wwLcQV-b3erfLIbvfFQ.jpg" alt="">
+                            <div class="projects--modal">
+                                <div>
+                                    <span class="projects--subtitle">Web</span>
+                                    <h3 class="projects--tittle">CRUD</h3>
+                                    <a href="https://mostafa-abogazia.github.io/Project-9/" target="_blank" class="projects--button button button--small">
+                                        <i class='bx bx-link-alt' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects--card">
+                            <img src="Capre.PNG" alt="">
+                            <div class="projects--modal">
+                                <div>
+                                    <span class="projects--subtitle">Web</span>
+                                    <h3 class="projects--tittle">Login & Sign Up </h3>
+                                    <a href="https://mostafa-abogazia.github.io/Project-10/" target="_blank" class="projects--button button button--small">
+                                        <i class='bx bx-link-alt' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="projects--content grid" data-content id="skills">
+                        <div class="skills--area">
+                            <h3 class="skills--title">Front End Developer</h3>
+                    
+                            <div class="skills--box">
+                                <div class="skills--group">
+                                    <div class="skills--data">
+                                        <i class='bx bx-check-circle'></i>
+                                        <div>
+                                            <h3 class="skills--name">HTML</h3>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="skills--data">
+                                        <i class='bx bx-check-circle'></i>
+                                        <div>
+                                            <h3 class="skills--name">CSS</h3>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="skills--data">
+                                        <i class='bx bx-check-circle'></i>
+                                        <div>
+                                            <h3 class="skills--name">JavaScript</h3>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="skills--data">
+                                        <i class='bx bx-check-circle'></i>
+                                        <div>
+                                            <h3 class="skills--name">React</h3>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="skills--data">
+                                        <i class='bx bx-check-circle'></i>
+                                        <div>
+                                            <h3 class="skills--name">Tailwind</h3>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="skills--data">
+                                        <i class='bx bx-check-circle'></i>
+                                        <div>
+                                            <h3 class="skills--name">Git</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer--copy">
+                &#169; Abogazia. All rights reserved
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+
+        <!--=============== MAIN JS ===============-->
+        <script src="main.js"></script>
+    </body>
+    
+</html>
